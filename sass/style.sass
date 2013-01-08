@@ -7,9 +7,24 @@ $fs: 16px
 $lh: 24px
 
 @import 'includes'
-	
+@import 'zen'
+
+
+/* SETTING UP ZEN GRIDS */
+// gem install zen-grids
+// read more http://zengrids.com/
+
+// Set the total number of columns in the grid
+$zen-column-count: 7
+
+//A half-gutter is used on each side of each column
+$zen-gutter-width: 10px
+
+
+
+
 @mixin sans
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+	font-family: sans-serif
 
 *
 	+border-box // This'll change the box model so everything is contained within it: http://paulirish.com/2012/box-sizing-border-box-ftw/
@@ -28,8 +43,9 @@ body
 	color: $text 
 
 #container
-	width: 1024px
-	max-width: 100%
+
+	width: 100%
+	max-width: 1024px
 	margin: 0 auto
 	+sans
 	font-size: $fs
