@@ -1,4 +1,8 @@
-	</div><!-- / container -->
+	
+	<footer>
+		<div class="container">
+		</div><!-- / container -->
+	</footer>
 
 	<!-- scripts concatenated and minified via build script -->
 	<script src="js/jquery.js"></script>

@@ -7,20 +7,7 @@ $fs: 16px
 $lh: 24px
 
 @import 'includes'
-@import 'zen'
-
-
-/* SETTING UP ZEN GRIDS */
-// gem install zen-grids
-// read more http://zengrids.com/
-
-// Set the total number of columns in the grid
-$zen-column-count: 7
-
-//A half-gutter is used on each side of each column
-$zen-gutter-width: 10px
-
-
+@import 'gs'
 
 
 @mixin sans
@@ -42,7 +29,7 @@ body
 	background-color: $background
 	color: $text 
 
-#container
+.container
 	
 	width: 100%
 	max-width: 1024px

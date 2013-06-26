@@ -1,0 +1,48 @@
+
+
+
+
+//GRID SYSTEM
+.grid_1
+	width: 8.333333333333%
+.grid_2
+	width: 16.665%
+.grid_3
+	width: 25%
+.grid_4
+	width: 33.33333333333%
+.grid_5
+	width: 41.665%
+.grid_6
+	width: 50%
+.grid_7
+	width: 58.33333333333%
+.grid_8
+	width: 66.665%
+.grid_9
+	width: 75%
+.grid_10
+	width: 83.33333333333%
+.grid_11
+	width: 91.665%
+.grid_12
+	width: 100%
+	clear: both
+
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12
+	float: left
+	padding: 0 .8333333em
+	
+	&.full
+		float: none
+		margin: 0 auto
+		clear: both
+	
+	&.break_sml
+		@media only screen and (max-width : 350px)
+			width: 100%
+		
+		
+	&.break_large
+		@media only screen and (max-width : 750px)
+			width: 100%

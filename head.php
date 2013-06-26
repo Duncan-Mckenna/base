@@ -27,5 +27,8 @@
 </head>
 
 <body>
-
-	<div id="container">
+	<header>
+		<div class="container">
+		
+		</div><!-- / container -->
+	</header>
